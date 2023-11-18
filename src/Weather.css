@@ -7,11 +7,9 @@
 }
 
 .Weather h1{ 
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 80;
   font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
-    padding: 16px;
     color: rgb(65, 63, 63);
   }
 
