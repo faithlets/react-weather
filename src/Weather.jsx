@@ -9,7 +9,7 @@ export default function Weather() {
                 <div className="col-9">
             <input type="search"  placeholder="Enter city name.." className="form control"/>
             </div>
-            <div className="col-3">
+            <div className="mb-3">
         <input type="submit" value="search" className="btn btn-primary"/>
         </div>
         </div>
@@ -18,7 +18,7 @@ export default function Weather() {
         <ul>
             <li>Friday 09:00</li>
             <li>Mostly cloudy</li>
-s
+
             </ul>
             <div className="row">
                 <div className="col-9">
@@ -27,7 +27,7 @@ s
                     />
                     6 °C
                     </div>
-                    <div className="col-3">
+                    <div className="mb-3">
                         <ul>
                             <li>Precipitation: 15%</li>
                             <li>Humidity: 72%</li>
@@ -39,4 +39,3 @@ s
         </div>
     );
 }
-  
