@@ -1,16 +1,21 @@
 import React from "react";
-
+import Weather from "./weather";
+import "./Weather.css";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      Weather App
+      <div className="container">
+      <Weather />
 
         <footer>
           This project was coded by {" "}
           <a
             href=""
+
+
+            
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,6 +38,7 @@ export default function App() {
             hosted on Netlify
           </a>
         </footer>
+      </div>
       </div>
    
   );
