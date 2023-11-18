@@ -1,18 +1,39 @@
-import { useState } from 'react'
+import React from "react";
 
-import './App.css'
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        
-        Weather App
-      </div>
-      </>
-  )
-}
+    <div className="App">
+      Weather App
 
-export default App 
+        <footer>
+          This project was coded by {" "}
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Faith Letsoara
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/faithlets/react-weather/blob/main/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
+   
+  );
+}
